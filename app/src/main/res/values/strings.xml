@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">CRP App</string>
+    <string name="action_settings">Settings</string>
+    <string name="ClaveVendor">Clave de vendedor</string>
+    <string name="title_activity_segundapantalla">Detalle</string>
+</resources>

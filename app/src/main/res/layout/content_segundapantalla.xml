@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".segundapantalla"
+    tools:showIn="@layout/activity_segundapantalla">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/TituloVenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Venta:"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/SVenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Resultado +Venta"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/TituloCliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Cliente"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Scliente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="cliente"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/Tituloimpresion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Hora de impresión"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Shoradeimpresion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="hra de impresion"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/titulociudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ciudad"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Sciudad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ciudad"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/titulobloqueado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bloqueado"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Sbloqueado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="bloqueado"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/titulofoliodesbloqueo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Folio desbloqueo"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Sdesbloqueo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="folio desbloqueo"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/titulostatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estatus"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Sestatus"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@android:string/status_bar_notification_info_overflow"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                tools:text="statys" />
+
+            <TextView
+                android:id="@+id/tituloestadoped"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Estado pedido"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Sestadoped"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="estado ped"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/titulototal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Total"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Stotal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="total"
+                android:textAlignment="center"
+                android:textSize="18sp" />
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
